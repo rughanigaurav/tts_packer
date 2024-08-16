@@ -69,8 +69,7 @@ variable "rabbitmq_pwd" {
 }
 
 variable "env" {
-
-  
+ 
 }
 
 variable "project_name" {

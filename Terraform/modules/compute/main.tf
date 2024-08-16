@@ -7,5 +7,4 @@ resource "aws_instance" "instance" {
     tags = var.instance_tags
     key_name = var.use_key_pair ? var.ssh_key : ""
     user_data = var.user_data
-    iam_instance_profile = ""
 }
